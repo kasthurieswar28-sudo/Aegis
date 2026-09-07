@@ -1,0 +1,6 @@
+{
+  "name": "Aegis",
+  "description": "Phone-first AI cybersecurity assistant detecting digital scams, deceptive QR codes, and social engineering before you act.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,163 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Glowing Neon Red Outer Ring (Portal) -->
+    <path
+        android:pathData="M54,19 A27,27 0 1,0 54,73 A27,27 0 1,0 54,19 Z"
+        android:strokeWidth="2.8"
+        android:strokeColor="#FF003C"
+        android:fillColor="#15FF003C" />
+
+    <path
+        android:pathData="M54,21 A25,25 0 1,0 54,71 A25,25 0 1,0 54,21 Z"
+        android:strokeWidth="0.8"
+        android:strokeColor="#80FF204E"
+        android:fillColor="#00000000" />
+
+    <!-- 2. Cyberpunk City Skyline Silhouette inside the circle -->
+    <path
+        android:pathData="M32,56 L32,50 L34,50 L34,46 L37,46 L37,56 Z
+                          M38,56 L38,43 L40,43 L40,40 L41,36 L42,40 L42,56 Z
+                          M43,56 L43,47 L46,47 L46,56 Z
+                          M62,56 L62,48 L65,48 L65,56 Z
+                          M66,56 L66,39 L67,35 L68,39 L68,43 L70,43 L70,56 Z
+                          M71,56 L71,49 L74,49 L74,56 Z"
+        android:fillColor="#55FF003C" />
+
+    <!-- Horizontal scanning lines in portal background -->
+    <path
+        android:pathData="M30,50 L78,50 M32,53 L76,53 M34,56 L74,56"
+        android:strokeWidth="0.5"
+        android:strokeColor="#44FF003C" />
+
+    <!-- 3. Japanese Cyber Accents flanking the circle: '伝説' (Legend) style markers -->
+    <!-- Left marker -->
+    <path
+        android:pathData="M23,38 L23,41 M23,43 L23,45 M22.2,48 L23,46.8 L23.8,48 L23,49.2 Z M23,51 L23,55"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF003C" />
+    <!-- Right marker -->
+    <path
+        android:pathData="M85,38 L85,41 M85,43 L85,45 M84.2,48 L85,46.8 L85.8,48 L85,49.2 Z M85,51 L85,55"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF003C" />
+
+    <!-- 4. Hooded Cyber Vigilante Silhouette (Black cowl with crimson contour) -->
+    <path
+        android:pathData="M54,25
+                          C50,25 43,30 40,38
+                          C37,45 35,54 34,64
+                          L74,64
+                          C73,54 71,45 68,38
+                          C65,30 58,25 54,25 Z"
+        android:fillColor="#090A10" />
+
+    <!-- Cowl edge highlight -->
+    <path
+        android:pathData="M35,63 C36,54 38,45 41,38 C44,31 50,26 54,26 C58,26 64,31 67,38 C70,45 72,54 73,63"
+        android:strokeWidth="1.4"
+        android:strokeColor="#FF003C"
+        android:fillColor="#00000000" />
+
+    <!-- Inner hood shadow cavity -->
+    <path
+        android:pathData="M54,30
+                          C51,30 46,35 44,42
+                          C43,47 44,52 46,56
+                          L62,56
+                          C64,52 65,47 64,42
+                          C62,35 57,30 54,30 Z"
+        android:fillColor="#020205" />
+
+    <!-- Glowing Neon Red "X" Mask on the face -->
+    <path
+        android:pathData="M49.5,39 L58.5,49"
+        android:strokeWidth="2.4"
+        android:strokeColor="#FF003C"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M58.5,39 L49.5,49"
+        android:strokeWidth="2.4"
+        android:strokeColor="#FF003C"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M51.5,41 L56.5,47 M56.5,41 L51.5,47"
+        android:strokeWidth="1.0"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+
+    <!-- 5. Aegis Medieval Cyber Broadsword (vertical, piercing down) -->
+    <!-- Sword Pommel & Grip -->
+    <path
+        android:pathData="M54,54 A2.2,2.2 0 1,0 54,58.4 A2.2,2.2 0 1,0 54,54 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#FF003C"
+        android:fillColor="#00000000" />
+    <!-- Grip / Hilt -->
+    <path
+        android:pathData="M53,58 L55,58 L55,64 L53,64 Z"
+        android:fillColor="#FF003C" />
+    <path
+        android:pathData="M53,59.5 L55,61 M53,62 L55,63.5"
+        android:strokeWidth="0.6"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- Crossguard with pointed diamond centerpiece -->
+    <path
+        android:pathData="M43,65.5 L47,64 L50,65.5 L54,63.5 L58,65.5 L61,64 L65,65.5 L64,67.5 L58,66.5 L54,68.5 L50,66.5 L44,67.5 Z"
+        android:fillColor="#FF003C" />
+    <path
+        android:pathData="M54,64.5 L56,66 L54,67.5 L52,66 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Sword Blade (Piercing straight downwards) -->
+    <path
+        android:pathData="M51.5,68.5 L52.2,86 L54,92 L55.8,86 L56.5,68.5 Z"
+        android:fillColor="#E6002E" />
+
+    <!-- Central fuller / blade edge highlight -->
+    <path
+        android:pathData="M54,68.5 L54,89"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF8099" />
+    <path
+        android:pathData="M54,70 L54,85"
+        android:strokeWidth="0.5"
+        android:strokeColor="#FFFFFF" />
+
+    <!-- 6. Bold "AEGIS" Cyber Title Banner -->
+    <!-- 'A' -->
+    <path
+        android:pathData="M34,79 L37,71 L40,79 M35,76 L39,76"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FF003C"
+        android:strokeLineCap="square" />
+    <!-- 'E' -->
+    <path
+        android:pathData="M43,71 L48,71 M43,71 L43,79 L48,79 M43,75 L46.5,75"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FF003C"
+        android:strokeLineCap="square" />
+    <!-- 'G' -->
+    <path
+        android:pathData="M65,72.5 C64,71 61.5,71 60,73 C58.5,75 58.5,77 60,78.5 C61.5,80 64,79.5 65,78 L65,75 L62.5,75"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FF003C"
+        android:strokeLineCap="square" />
+    <!-- 'I' -->
+    <path
+        android:pathData="M69,71 L73,71 M71,71 L71,79 M69,79 L73,79"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FF003C"
+        android:strokeLineCap="square" />
+    <!-- 'S' -->
+    <path
+        android:pathData="M79,72.5 L76,71 C74.5,71 74.5,73 76,74 L78,75.5 C79.5,76.5 79.5,79 77.5,79 L74.5,77.5"
+        android:strokeWidth="2.2"
+        android:strokeColor="#FF003C"
+        android:strokeLineCap="square" />
+
+</vector>
