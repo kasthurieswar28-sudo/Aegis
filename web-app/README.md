@@ -1,32 +1,57 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Aegis Web
 
-Currently, two official plugins are available:
+<p align="center">
+  <strong>AI-Powered Deception Detection Platform</strong>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  A responsive web version of the Aegis security application, designed to help users identify suspicious links, deceptive content, and potential digital threats.
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Overview
 
-## Expanding the Oxlint configuration
+**Aegis** is an AI-powered cybersecurity platform designed to help users detect potentially deceptive and suspicious digital content.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+The Aegis Web application brings the core experience of the Aegis Android application to the browser with a responsive interface that works across desktop, tablet, and mobile devices.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+The platform provides an interactive security dashboard where users can analyze potentially dangerous content and receive understandable threat insights and risk assessments.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## ✨ Features
+
+- 🛡️ AI-powered threat and deception analysis
+- 🔗 Suspicious URL and link analysis
+- 📷 QR code scanning and image upload
+- 📊 Risk score and threat classification
+- ⚠️ Suspicious activity indicators
+- 🤖 AI-generated security insights
+- 📋 Scan results and analysis details
+- 🕒 Scan history
+- 🔐 Security recommendations
+- 📱 Fully responsive mobile interface
+- 🖥️ Desktop and tablet support
+- 🌙 Modern cybersecurity-themed interface
+- 🔄 Browser-compatible navigation and history
+
+---
+
+## 🧠 How It Works
+
+```text
+User Input
+    ↓
+URL / QR / Content
+    ↓
+Aegis Analysis Engine
+    ↓
+AI & Security Analysis
+    ↓
+Threat Indicators
+    ↓
+Risk Assessment
+    ↓
+Security Recommendation
